@@ -1,0 +1,47 @@
+@use '/src/styles/variables';
+
+
+.hotelsList{
+
+  .hotelsResults {
+    display: block;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    font-size: .9rem;
+    color:  variables.$gray-darker;
+    background-color: variables.$gray-lightest;
+    border: 1px solid variables.$gray-light;
+    border-radius: variables.$border-radius-small;
+  }
+
+  .hotelRow {
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid variables.$gray-light;
+    border-radius: variables.$border-radius-small;
+    box-shadow: variables.$box-shadow-3;
+    transition: border-color .5s;
+
+    &:hover {
+      border-color: variables.$orchid;
+      //cursor: pointer;
+    }
+
+    > img {
+      max-width: 100px;
+      margin-right: 1rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.8rem;
+    }
+
+    p {
+      font-size: .85rem;
+      line-height: 1.3rem;
+    }
+  }
+}

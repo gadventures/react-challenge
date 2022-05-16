@@ -1,0 +1,54 @@
+// Colors
+$black: #000000;
+$gray-darkest: #242239;
+$gray-darker: #504E61;
+$gray-dark: #8C8895;
+$gray: #BEB8C4;
+$gray-light: #E2E2EE;
+$gray-lighter: #EDEDF6;
+$gray-lightest: #F6F6FA;
+$white: #ffffff;
+
+$lavender: #EBEAFF;
+$lilac: #DAD9FF;
+$orchid: #AF9FEB;
+$purple: #513394;
+$purple-dark: #210A53;
+
+$red: #E55353;
+$yellow: #EFC400;
+$green: #00A373;
+$teal: #81CEC3;
+
+// Colors - Text
+$text-primary: $gray-darkest;
+$text-secondary: $gray-darker;
+$text-disabled: $gray-dark;
+
+// Font
+$font-family: 'DM Sans', sans-serif;
+$font-size-root: 16px;
+$font-size-base: 1rem;
+
+// Font - Heading
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+// Screen Breakpoints
+$screen-mobile: 48rem; // 768px
+$screen-tablet: 75rem; // 1200px;
+
+// Border radius
+$borer-radius-large: 1rem;
+$border-radius: .75rem;
+$border-radius-small: .5rem;
+
+// Box shadow
+$box-shadow-1: 0 0 .25rem rgba($purple, .2);
+$box-shadow-2: 0 .187rem .75rem rgba($purple-dark, .6);
+$box-shadow-3: 0 .187rem 1rem rgba($purple-dark, .08);
+$box-shadow-4: 0 .125rem 1.5rem rgba($purple-dark, .22);

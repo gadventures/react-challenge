@@ -1,0 +1,35 @@
+@use '/src/styles/variables';
+
+.layout {
+  padding: 0 2rem;
+  margin: 0 auto;
+  width: 100%;
+
+  @media only screen
+    and (min-width: variables.$screen-mobile) {
+      width: variables.$screen-mobile;
+      padding: 0;
+  }
+  @media only screen and (min-width: variables.$screen-tablet) {
+      width: variables.$screen-tablet;
+      padding: 0;
+  }
+
+  .header {
+    display: flex;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid variables.$gray-light;
+
+    svg.logo {
+      fill: variables.$purple;
+      width: 2rem;
+      margin-right: 1rem;
+    }
+    h1{
+      line-height: 1.9rem;
+      font-size: 1.5rem;
+      color: variables.$purple;
+    }
+  }
+}

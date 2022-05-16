@@ -1,0 +1,10 @@
+@use '/src/styles/variables';
+
+.loading {
+  padding: 2rem;
+  border-radius: .5rem;
+  font-style: italic;
+  text-align: center;
+  background-color: variables.$gray-lightest;
+  color: variables.$gray-darker;
+}
