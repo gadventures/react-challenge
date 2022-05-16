@@ -8,7 +8,7 @@ with us. We can then discuss different areas of React. We're really excited!
 ## Getting Started
 First, clone this repository from Github. Once it's clonned you can go ahead and install all requirements and run the project
 
-```
+```console
 $ cd react-challenge 
 $ npm install
 $ npm start run
